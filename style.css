@@ -28,3 +28,36 @@ body {
     display: flex;
     gap: 32px;
 }
+
+.cabecalho-menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom:48px;
+    border-top:0.4px solid #ffffff;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.conteudo-principal-escrito{
+    display:flex;
+    flex-direction: colum;
+}
+
+.conteudo-principal-foto{
+    border-radius: 100%;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
