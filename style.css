@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background:   ;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #003153 85.61%);
 }
 
 .cabecalho {
@@ -18,4 +18,13 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+}
+
+.logo-cabecalho {
+    border-radius: 100%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
 }
