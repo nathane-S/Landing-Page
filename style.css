@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
 }
 
 .cabecalho {
-    display : flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -37,21 +36,21 @@ body {
 }
 
 .conteudo {
-    margin-bottom:48px;
-    border-top:0.4px solid #ffffff;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff;
 }
 
 .conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.conteudo-principal-escrito{
-    display:flex;
+.conteudo-principal-escrito {
+    display: flex;
     flex-direction: column;
-    gap:32px;
+    gap: 32px;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -79,14 +78,37 @@ body {
     color: #003153;
     font-weight: 400;
     font-size: 20px;
-
-
 }
-.conteudo-principal-foto{
+
+.conteudo-principal-foto {
     border-radius: 100%;
-    max-width:200px;
-    max-height:150px;
+    max-width: 200px;
+    max-height: 150px;
     width: auto;
     height: auto;
 }
 
+.conteudo-game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game {
+    width: 603px;
+    height: 600px;
+    border: solid 3px;
+}
+
+.linha {
+    height: 200px;
+    border-bottom: solid 1px;
+}
+
+.casa {
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
